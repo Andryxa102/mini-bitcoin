@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Pizza Day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bitcoin Pizza Day</h1>
+        <p>10,000 биткоинов за две пиццы? Да, это реальность!</p>
+        <nav>
+            <a href="#history">История</a>
+            <a href="#calculator">Калькулятор</a>
+            <a href="#game">Игра</a>
+        </nav>
+    </header>
+    <main>
+        <section id="history">
+            <h2>История сделки</h2>
+            <p>22 мая 2010 года программист Ласло Ханьец купил 2 пиццы за 10,000 биткоинов. Это была первая покупка за криптовалюту!</p>
+            <img src="pizza-bitcoin.png" alt="Bitcoin Pizza">
+        </section>
+        <section id="calculator">
+            <h2>Калькулятор стоимости пиццы</h2>
+            <div id="bitcoin-price">Loading current price...</div>
+            <p>Сколько стоит 10,000 BTC сегодня?</p>
+            <button onclick="calculatePizza()">Рассчитать</button>
+            <div id="pizza-value"></div>
+        </section>
+        <section id="game">
+            <h2>Попробуй свою удачу!</h2>
+            <p>Смоделируйте свою сделку. Сколько пицц вы купите за 1 BTC?</p>
+            <button onclick="startGame()">Начать игру</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bitcoin Pizza Day. Все права защищены.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
